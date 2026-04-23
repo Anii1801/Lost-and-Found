@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://lost-and-found-backend-4t44.onrender.com/api";
 
 // ─── Axios helper with token ───────────────────────────────────────────────
 const authAxios = () =>
